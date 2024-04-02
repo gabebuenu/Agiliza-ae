@@ -2,7 +2,8 @@ Instituição: Unimar
 Curso: Análise e Desenvolvimento de Sistema
 Termo: 3° A
 
-Nomes: Gabriel Bueno da Silva | RA: 1960373
+Alunos:
+Gabriel Bueno da Silva | RA: 1960373
 Bruno Bueno da Silva | RA: 1958554
 Gustavo Barbosa da Silva | RA: 1961559
 Guilherme Bernardes | RA: 1878622
