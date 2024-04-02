@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/tickets.css">
+    <title>Tickets</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a href="dashboard.html" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>Full</span>Track</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="dashboard.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="rotas.html"><i class='bx bx-store-alt'></i>Rotas</a></li>
+            <li><a href="analiticos.html"><i class='bx bx-analyse'></i>Análiticos</a></li>
+            <li class="active"><a href="tickets.html"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
+            <li><a href="usuario.html"><i class='bx bx-group'></i>Usuário</a></li>
+            <li><a href="config.html"><i class='bx bx-cog'></i>Configurações</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="index.html" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Sair
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="usuario.html" class="profile">
+                <img src="assets/images/plus.png">
+            </a>
+        </nav>
+
+
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Solicite seu Ticket</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">
+                            Tickets
+                            </a></li>
+                        /
+                        <li><a href="#" class="active">Suporte</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download CSV</span>
+                </a>
+            </div>
+                <form action="" method="post" class="contact-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

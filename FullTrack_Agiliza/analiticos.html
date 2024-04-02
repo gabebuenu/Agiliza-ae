@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <title>Análiticos</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a href="dashboard.html" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>Full</span>Track</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="dashboard.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="rotas.html"><i class='bx bx-store-alt'></i>Rotas</a></li>
+            <li class="active"><a href="analiticos.html"><i class='bx bx-analyse'></i>Analíticos</a></li>
+            <li><a href="tickets.html"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
+            <li><a href="usuario.html"><i class='bx bx-group'></i>Usuário</a></li>
+            <li><a href="config.html"><i class='bx bx-cog'></i>Configurações</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="index.html" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Sair
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="usuario.html" class="profile">
+                <img src="assets/images/plus.png">
+            </a>
+        </nav>
+
+
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Analíticos</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">
+                            Analíticos
+                            </a></li>
+                        /
+                        <li><a href="#" class="active">Rotas</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download CSV</span>
+                </a>
+            </div>
+
+
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-calendar-check'></i>
+                    <span class="info">
+                        <h3>
+                            1,074
+                        </h3>
+                        <p>Rotas concluída</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-show-alt'></i>
+                    <span class="info">
+                        <h3>
+                            3,944
+                        </h3>
+                        <p>Visualizações no Site</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-line-chart'></i>
+                    <span class="info">
+                        <h3>
+                            14,721
+                        </h3>
+                        <p>Pesquisas</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-dollar-circle'></i>
+                    <span class="info">
+                        <h3>
+                            $6,742
+                        </h3>
+                        <p>Faturamento total</p>
+                    </span>
+                </li>
+            </ul>
+
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt'></i>
+                        <h3>Recentes</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Última Data</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="assets/images/eba.jpeg">
+                                    <p>Gabriel Bueno</p>
+                                </td>
+                                <td>31-03-2024</td>
+                                <td><span class="status completed">Completa</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/images/ebe.jpeg">
+                                    <p>Lucas Panizio</p>
+                                </td>
+                                <td>31-03-2024</td>
+                                <td><span class="status pending">Em rota</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/images/ebu.jpeg">
+                                    <p>Bruno Bueno</p>
+                                </td>
+                                <td>00-00-2024</td>
+                                <td><span class="status process">Aguardando</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="reminders">
+                    <div class="header">
+                        <i class='bx bx-note'></i>
+                        <h3>Lembretes</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <ul class="task-list">
+                        <li class="completed">
+                            <div class="task-title">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Reunião</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="completed">
+                            <div class="task-title">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Manutenção</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="not-completed">
+                            <div class="task-title">
+                                <i class='bx bx-x-circle'></i>
+                                <p>Recalcular Despesas de Frete</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
