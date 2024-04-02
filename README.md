@@ -56,6 +56,7 @@ Descrição: Todo o site está responsivo, e possuí opção de tema claro e esc
 ![image](https://github.com/gabebuenu/Agiliza-ae/assets/127902855/806f78e8-827e-4cba-bf00-f0dc9382e615)
 Descrição: Voltando para a Home.
 
+Tecnologias Utilizadas: HTML, CSS, JS, API DO WAZE, BOOTSTRAP
 
 
 
